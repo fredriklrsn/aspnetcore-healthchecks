@@ -1,0 +1,11 @@
+@HealthChecks.Api_HostAddress = http://localhost:5277
+
+GET {{HealthChecks.Api_HostAddress}}/ping
+
+###
+
+GET {{HealthChecks.Api_HostAddress}}/health
+
+###
+
+GET {{HealthChecks.Api_HostAddress}}/health/urls

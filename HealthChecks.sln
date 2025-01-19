@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthChecks.Api", "sample\HealthChecks.Api\HealthChecks.Api.csproj", "{CC6616B9-75DF-43AA-9DCF-CC79B45151C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FredrikLrsn.AspNetCore.HealthChecks", "src\FredrikLrsn.AspNetCore.HealthChecks\FredrikLrsn.AspNetCore.HealthChecks.csproj", "{384F5F5A-50B0-427E-A007-0AD56C25B510}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC6616B9-75DF-43AA-9DCF-CC79B45151C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6616B9-75DF-43AA-9DCF-CC79B45151C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6616B9-75DF-43AA-9DCF-CC79B45151C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6616B9-75DF-43AA-9DCF-CC79B45151C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384F5F5A-50B0-427E-A007-0AD56C25B510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384F5F5A-50B0-427E-A007-0AD56C25B510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384F5F5A-50B0-427E-A007-0AD56C25B510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384F5F5A-50B0-427E-A007-0AD56C25B510}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
